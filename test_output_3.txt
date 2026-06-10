@@ -1,0 +1,261 @@
+
+[0;36m╔═══════════════════════════════════════════╗[0m
+[0;36m║     🛩️  Price Pilot — Test Runner          ║[0m
+[0;36m╚═══════════════════════════════════════════╝[0m
+
+[1;33m[1/4][0m 🎨 Checking code formatting...
+Formatted 66 files (0 changed) in 0.15 seconds.
+  [0;32m✅ Formatting OK[0m
+[1;33m[2/4][0m 🔍 Running static analysis...
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (94.0.0 available)
+  analyzer 10.0.1 (10.0.2 available)
+  app_links 6.4.1 (7.0.0 available)
+  characters 1.4.0 (1.4.1 available)
+  flutter_dotenv 5.2.1 (6.0.0 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  flutter_polyline_points 2.1.0 (3.1.0 available)
+  geocoding 3.0.0 (4.0.0 available)
+  geocoding_android 3.3.1 (4.0.1 available)
+  geocoding_platform_interface 3.2.0 (5.0.0 available)
+  geolocator 13.0.4 (14.0.2 available)
+  geolocator_android 4.6.2 (5.0.2 available)
+  google_fonts 6.3.3 (8.0.1 available)
+  intl 0.19.0 (0.20.2 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  permission_handler 11.4.0 (12.0.1 available)
+  permission_handler_android 12.1.0 (13.0.1 available)
+  test_api 0.7.7 (0.7.9 available)
+Got dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing Price-Pilot...                                        
+No issues found! (ran in 2.0s)
+  [0;32m✅ Analysis clean[0m
+[1;33m[3/4][0m 🧪 Running unit tests...
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (94.0.0 available)
+  analyzer 10.0.1 (10.0.2 available)
+  app_links 6.4.1 (7.0.0 available)
+  characters 1.4.0 (1.4.1 available)
+  flutter_dotenv 5.2.1 (6.0.0 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  flutter_polyline_points 2.1.0 (3.1.0 available)
+  geocoding 3.0.0 (4.0.0 available)
+  geocoding_android 3.3.1 (4.0.1 available)
+  geocoding_platform_interface 3.2.0 (5.0.0 available)
+  geolocator 13.0.4 (14.0.2 available)
+  geolocator_android 4.6.2 (5.0.2 available)
+  google_fonts 6.3.3 (8.0.1 available)
+  intl 0.19.0 (0.20.2 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  permission_handler 11.4.0 (12.0.1 available)
+  permission_handler_android 12.1.0 (13.0.1 available)
+  test_api 0.7.7 (0.7.9 available)
+Got dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/ride_provider_test.dart
+00:00 +0: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils estimatePrice calculates price without surge
+00:00 +1: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/ride_provider_test.dart: RideProvider initial state is empty
+00:00 +2: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils estimatePrice calculates price with surge multiplier
+00:00 +3: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/ride_provider_test.dart: RideProvider clearRides resets all state
+00:00 +4: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils estimatePrice returns base fare only for zero distance and duration
+00:00 +5: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/ride_provider_test.dart: RideProvider setVehicleFilter updates filter
+00:00 +6: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils estimatePrice rounds to 2 decimal places
+00:00 +7: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/ride_provider_test.dart: RideProvider setVehicleFilter to null clears filter
+00:00 +8: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils estimatePrice default surge multiplier is 1.0
+00:00 +9: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/ride_provider_test.dart: RideProvider notifies listeners on filter change
+00:00 +10: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/booking_provider_test.dart: BookingProvider initial state is empty
+00:00 +11: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/booking_provider_test.dart: BookingProvider initial state is empty
+00:00 +12: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/booking_provider_test.dart: BookingProvider initial state is empty
+00:00 +13: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils format formats price rounding to whole number
+00:00 +14: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/booking_provider_test.dart: BookingProvider clearActiveBooking resets active booking
+00:00 +15: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils formatPrecise formats price with 2 decimal places
+00:00 +16: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/booking_provider_test.dart: BookingProvider notifies listeners on clearActiveBooking
+00:00 +17: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils percentageDifference returns 0 for same prices
+00:00 +18: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils percentageDifference returns positive for higher compare price
+00:00 +19: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils percentageDifference returns negative for lower compare price
+00:00 +20: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils percentageDifference returns 0 when base price is 0
+00:00 +21: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils savingsLabel returns Best Price when current equals lowest
+00:00 +22: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils savingsLabel returns Best Price when current is lower than lowest
+00:00 +23: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/price_utils_test.dart: PriceUtils savingsLabel returns Save label when current is higher
+00:00 +24: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/auth_provider_test.dart: AuthProvider initial state is unauthenticated
+00:00 +25: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/auth_provider_test.dart: AuthProvider clearError resets error to null
+00:00 +26: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/providers/auth_provider_test.dart: AuthProvider notifies listeners on clearError
+00:00 +27: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils haversineDistance returns 0 for same coordinates
+00:00 +28: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils haversineDistance calculates correct distance between Delhi and Mumbai
+00:00 +29: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils haversineDistance calculates short distance correctly
+00:00 +30: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils haversineDistance is symmetric (A→B == B→A)
+00:00 +31: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDistance formats distance < 1 km in meters
+00:00 +32: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDistance formats distance >= 1 km in kilometers
+00:00 +33: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDistance formats very small distance
+00:00 +34: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDistance formats large distance
+00:00 +35: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDuration formats minutes < 60
+00:00 +36: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDuration formats exactly 1 hour
+00:00 +37: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDuration formats hours and minutes
+00:00 +38: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDuration formats multiple hours
+00:00 +39: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/utils/location_utils_test.dart: LocationUtils formatDuration formats exactly N hours
+00:00 +40: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel fromJson creates a valid model
+00:00 +41: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel toJson produces correct map
+00:00 +42: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel JSON round-trip preserves data
+00:00 +43: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel fromJson handles null optional fields
+00:00 +44: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel copyWith creates copy with overridden values
+00:00 +45: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel equality is based on latitude and longitude
+00:00 +46: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel inequality when different coordinates
+00:00 +47: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/location_model_test.dart: LocationModel toString contains lat and lng
+00:00 +48: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel fromJson creates a valid model
+00:00 +49: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel toJson produces correct map
+00:00 +50: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel JSON round-trip preserves data
+00:00 +51: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel fromJson handles null optional fields
+00:00 +52: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel copyWith creates a copy with overridden values
+00:00 +53: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel copyWith preserves all values when no args given
+00:00 +54: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel equality is based on id
+00:00 +55: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel inequality when different ids
+00:00 +56: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/user_model_test.dart: UserModel toString contains name and email
+00:00 +57: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel fromJson creates a valid model
+00:01 +58: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel toJson produces correct map
+00:01 +59: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel fromJson handles null optional fields
+00:01 +60: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel copyWith creates copy with overridden values
+00:01 +61: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel copyWith preserves all values when no args
+00:01 +62: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel status transitions via copyWith
+00:01 +63: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel equality is based on id
+00:01 +64: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/booking_model_test.dart: BookingModel toString contains service and status
+00:01 +65: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel fromJson creates a valid model
+00:01 +66: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel toJson produces correct map
+00:01 +67: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel JSON round-trip preserves data
+00:01 +68: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel fromJson uses defaults for optional fields
+00:01 +69: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel hasSurge returns true when multiplier > 1.0
+00:01 +70: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel hasSurge returns false when multiplier is 1.0
+00:01 +71: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel priceBeforeSurge calculates correctly
+00:01 +72: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel priceBeforeSurge returns price when no surge
+00:01 +73: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel copyWith creates a new instance with overridden values
+00:01 +74: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel copyWith preserves original when no args
+00:01 +75: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel equality is based on id
+00:01 +76: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel inequality when different ids
+00:01 +77: /Users/mantejsingh/Desktop/Price-Pilot/test/unit/models/ride_model_test.dart: RideModel toString contains service and vehicle type
+00:01 +78: All tests passed!
+  [0;32m✅ Unit tests passed[0m
+[1;33m[4/4][0m 🧩 Running widget tests...
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (94.0.0 available)
+  analyzer 10.0.1 (10.0.2 available)
+  app_links 6.4.1 (7.0.0 available)
+  characters 1.4.0 (1.4.1 available)
+  flutter_dotenv 5.2.1 (6.0.0 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  flutter_polyline_points 2.1.0 (3.1.0 available)
+  geocoding 3.0.0 (4.0.0 available)
+  geocoding_android 3.3.1 (4.0.1 available)
+  geocoding_platform_interface 3.2.0 (5.0.0 available)
+  geolocator 13.0.4 (14.0.2 available)
+  geolocator_android 4.6.2 (5.0.2 available)
+  google_fonts 6.3.3 (8.0.1 available)
+  intl 0.19.0 (0.20.2 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  permission_handler 11.4.0 (12.0.1 available)
+  permission_handler_android 12.1.0 (13.0.1 available)
+  test_api 0.7.7 (0.7.9 available)
+Got dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart
+00:00 +0: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen renders Price Pilot title
+00:00 +1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen renders Price Pilot title
+00:00 +2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen renders email input field
+00:00 +3: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen renders email input field
+00:00 +4: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen renders email input field
+00:00 +5: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen renders email input field
+00:00 +6: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen renders email input field
+00:00 +7: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen renders name, email, and phone fields
+00:00 +8: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen renders name, email, and phone fields
+00:00 +9: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+00:00 +10: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+00:00 +11: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+00:00 +12: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+00:00 +13: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+00:00 +14: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+00:00 +15: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly 4 matching candidates
+  Actual: _TypeWidgetFinder:<Found 0 widgets with type "BottomNavigationBarItem": []>
+   Which: means none were found but some were expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure>.<anonymous closure> (file:///Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart:61:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart line 61
+The test description was:
+  has 4 bottom nav items
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +15 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows name validation error on empty submit
+00:00 +15 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen has 4 bottom nav items [E]
+  Test failed. See exception logs above.
+  The test description was: has 4 bottom nav items
+  
+00:00 +16 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen shows validation error on empty email submit
+00:01 +17 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen shows validation error on empty email submit
+00:01 +18 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows email validation error on empty submit
+00:01 +19 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows email validation error on empty submit
+00:01 +20 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows email validation error on empty submit
+00:01 +21 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/login_screen_test.dart: LoginScreen shows validation error on invalid email
+00:01 +22 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen shows snackbar when comparing with empty fields
+00:01 +23 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/home_screen_test.dart: HomeScreen shows snackbar when comparing with empty fields
+00:01 +24 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows phone validation error on empty submit
+00:01 +25 -1: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows phone validation error on short number
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Enter a valid 10-digit phone number": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure>.<anonymous closure> (file:///Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart:97:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart line 97
+The test description was:
+  shows phone validation error on short number
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +25 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard displays service name
+00:01 +25 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/screens/signup_screen_test.dart: SignupScreen shows phone validation error on short number [E]
+  Test failed. See exception logs above.
+  The test description was: shows phone validation error on short number
+  
+00:01 +26 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard displays service name
+00:01 +27 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard displays vehicle type
+00:01 +28 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard displays price
+00:01 +29 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard displays estimated time
+00:01 +30 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard shows best price badge when isBestPrice is true
+00:01 +31 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard shows surge indicator for surge rides
+00:01 +32 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard calls onTap when card is tapped
+00:01 +33 -2: /Users/mantejsingh/Desktop/Price-Pilot/test/widget/widgets/ride_card_test.dart: RideCard displays seating capacity
+00:01 +34 -2: Some tests failed.

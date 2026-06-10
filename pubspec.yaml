@@ -1,0 +1,81 @@
+name: price_pilot
+description: >
+  A production-grade ride-hailing price comparison and booking application.
+  Compare prices across Uber, Ola, Rapido, Meru, BluSmart, InDrive, and
+  Namma Yatri to find the best deal for every ride.
+
+publish_to: 'none'
+
+version: 0.6.0+4
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Maps and Location
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  flutter_polyline_points: ^2.1.0
+
+  # Networking
+  http: ^1.2.2
+
+  # Database (Supabase)
+  supabase_flutter: ^2.8.0
+
+  # Environment
+  flutter_dotenv: ^5.2.1
+
+  # Storage
+  shared_preferences: ^2.3.4
+
+  # Deep Linking
+  url_launcher: ^6.3.1
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Animations
+  animations: ^2.0.11
+
+  # UI Utilities
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  flutter_svg: ^2.0.16
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#1a1a2e"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
+
+
